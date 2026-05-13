@@ -1,8 +1,8 @@
 # Identificação
 
-* Nome: 
-* Email (@ccc): 
-* Matrícula: 
+* Nome: Deborah dos Santos Araujo
+* Email (@ccc): deborah.araujo@ccc.ufcg.edu.br
+* Matrícula: 20250030337
 
 # Roteiro: Ordenação linear
 
@@ -47,15 +47,25 @@ Perguntas importantes:
   
   * Apresente um exemplo concreto em que o Counting Sort é muito adequado.
 
-  > INSIRA AQUI SUA RESPOSTA
+  > Ordenação de números de fichas em uma fila de espera foi distribuída e por
+  > um imprevisto o atendimento precisou ser adiado para o dia seguinte, assim
+  > algumas pessoas destas não puderam comparecer no dia seguinte. Normalmente o número
+  > máximo de pessoas em uma fila de atendimento não costuma ser
+  > muito grande, sendo assim nosso K não desperdiçaria tanto espaço na memória
   
   * Apresente um exemplo concreto em que o Counting Sort não é uma boa alternativa para ordenação.
 
-  > INSIRA SUA RESPOSTA AQUI
+  > Odenar 50 pessoas por número de CPF. O CPF tem uma quantidade muito grande de
+  > digitos em relação a quantidade de pessoas, isso desperdicaria memória.
 
   * Qual problema do Counting Sort o Radix Sort resolve? Como? 
 
-  > INSIRA AQUI SUA RESPOSTA
+  > Ordenação com números de muitos digitos, valores muito alto, bem como o
+  > exemplo de ordenar 50 pessoas pelo número do CPF delas, assim tenho 11
+  > digitos vs 50. O Radix sort vai resolver o problema ordenando digito a
+  > digito de cada número deste, e para ordenar esses números entre si ele
+  > utilizará couting sort. Dessa maneira o K para cada digito comparado entre
+  > eles, vai ser 9. 
 
     
 ## Mais estudo
